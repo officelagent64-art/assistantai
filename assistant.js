@@ -1,12 +1,12 @@
 // ==================== Supabase Init ====================
 const { createClient } = supabase;
 const supabaseClient = createClient(
-    'https://mxemardtyidrhfsnxvad.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im14ZW1hcmR0eWlkcmhmc254dmFkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI4NzkwMzQsImV4cCI6MjA4ODQ1NTAzNH0.u1eFWdodluIqZQ-_Cr5IzSNMNUE1H4GQU-oDYT4Z1oo'
+    'https://zpkddqkqyjrfogjcjpwz.supabase.co',
+    'sb_publishable_7kQXBCZVBKvxqTyqdLC-HA_3TteXaTd'
 );
 
 // ==================== N8N CONFIG ====================
-const N8N_WEBHOOK_URL = 'https://n8n-mcda.onrender.com/webhook-test/ia';
+const N8N_WEBHOOK_URL = 'https://n8n-z4y4.onrender.com/webhook-test/ia';
 
 // Vérifier session
 supabaseClient.auth.getSession().then(({ data: { session } }) => {
